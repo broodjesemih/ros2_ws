@@ -210,6 +210,43 @@ template_general/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_general.dir/build.make CMakeFiles/template_general.dir/build
 .PHONY : template_general/fast
 
+#=============================================================================
+# Target rules for targets named clock
+
+# Build rule for target.
+clock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clock
+.PHONY : clock
+
+# fast build rule for target.
+clock/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/build
+.PHONY : clock/fast
+
+src/clock.o: src/clock.cpp.o
+.PHONY : src/clock.o
+
+# target to build an object file
+src/clock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/src/clock.cpp.o
+.PHONY : src/clock.cpp.o
+
+src/clock.i: src/clock.cpp.i
+.PHONY : src/clock.i
+
+# target to preprocess a source file
+src/clock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/src/clock.cpp.i
+.PHONY : src/clock.cpp.i
+
+src/clock.s: src/clock.cpp.s
+.PHONY : src/clock.s
+
+# target to generate assembly for a file
+src/clock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/src/clock.cpp.s
+.PHONY : src/clock.cpp.s
+
 src/template_general.o: src/template_general.cpp.o
 .PHONY : src/template_general.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... les_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... clock"
 	@echo "... template_general"
+	@echo "... src/clock.o"
+	@echo "... src/clock.i"
+	@echo "... src/clock.s"
 	@echo "... src/template_general.o"
 	@echo "... src/template_general.i"
 	@echo "... src/template_general.s"

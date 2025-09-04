@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 43,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 69,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
@@ -232,7 +232,7 @@
 				"template_general"
 			],
 			"targetId" : "template_general::@6890427a1f51a3e7e1df",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
 			"type" : "target"
 		},
 		{
@@ -241,7 +241,30 @@
 			"cxxModuleBmiTarget" : 
 			{
 				"id" : "template_general::@6890427a1f51a3e7e1df",
-				"index" : 1
+				"index" : 2
+			},
+			"destination" : "lib/les_pkg",
+			"type" : "cxxModuleBmi"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/les_pkg",
+			"paths" : 
+			[
+				"clock"
+			],
+			"targetId" : "clock::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "clock::@6890427a1f51a3e7e1df",
+				"index" : 0
 			},
 			"destination" : "lib/les_pkg",
 			"type" : "cxxModuleBmi"

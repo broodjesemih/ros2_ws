@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/broodjesemih/ros2_ws/build/les_pkg
 
 # The main recursive "all" target.
 all: CMakeFiles/template_general.dir/all
+all: CMakeFiles/clock.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/les_pkg_uninstall.dir/clean
 clean: CMakeFiles/template_general.dir/clean
+clean: CMakeFiles/clock.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/les_pkg_uninstall.dir/clean:
 CMakeFiles/template_general.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_general.dir/build.make CMakeFiles/template_general.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_general.dir/build.make CMakeFiles/template_general.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/broodjesemih/ros2_ws/build/les_pkg/CMakeFiles --progress-num=1,2 "Built target template_general"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/broodjesemih/ros2_ws/build/les_pkg/CMakeFiles --progress-num=3,4 "Built target template_general"
 .PHONY : CMakeFiles/template_general.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ template_general: CMakeFiles/template_general.dir/rule
 CMakeFiles/template_general.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_general.dir/build.make CMakeFiles/template_general.dir/clean
 .PHONY : CMakeFiles/template_general.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/clock.dir
+
+# All Build rule for target.
+CMakeFiles/clock.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/broodjesemih/ros2_ws/build/les_pkg/CMakeFiles --progress-num=1,2 "Built target clock"
+.PHONY : CMakeFiles/clock.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/clock.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/broodjesemih/ros2_ws/build/les_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clock.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/broodjesemih/ros2_ws/build/les_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/clock.dir/rule
+
+# Convenience name for target.
+clock: CMakeFiles/clock.dir/rule
+.PHONY : clock
+
+# clean rule for target.
+CMakeFiles/clock.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/clean
+.PHONY : CMakeFiles/clock.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
