@@ -1,0 +1,33 @@
+[0.006s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/broodjesemih/ros2_ws/build/les_pkg -- -j20 -l20
+[0.050s] [ 20%] Built target template_subscriber
+[0.054s] [ 80%] [32mBuilding CXX object CMakeFiles/template_publisher.dir/src/template_publisher.cpp.o[0m
+[0.054s] [ 80%] Built target template_walltimer
+[0.054s] [ 90%] Built target clock
+[0.054s] [ 90%] Built target template_general
+[2.365s] [100%] [32m[1mLinking CXX executable template_publisher[0m
+[2.465s] [100%] Built target template_publisher
+[2.474s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/broodjesemih/ros2_ws/build/les_pkg -- -j20 -l20
+[2.481s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/broodjesemih/ros2_ws/build/les_pkg
+[2.486s] -- Install configuration: ""
+[2.486s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_general
+[2.486s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/clock
+[2.486s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_walltimer
+[2.486s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_publisher
+[2.487s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_publisher" to ""
+[2.487s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_subscriber
+[2.487s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/package_run_dependencies/les_pkg
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/parent_prefix_path/les_pkg
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.sh
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.dsv
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.sh
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.dsv
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.bash
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.sh
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.zsh
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.dsv
+[2.488s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.dsv
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/packages/les_pkg
+[2.488s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig.cmake
+[2.489s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig-version.cmake
+[2.489s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.xml
+[2.489s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/broodjesemih/ros2_ws/build/les_pkg

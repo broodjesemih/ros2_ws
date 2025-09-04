@@ -1,0 +1,29 @@
+[0.006s] Invoking command in '/home/broodjesemih/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/broodjesemih/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/broodjesemih/ros2_ws/install/my_robot_interfaces
+[0.057s] -- The C compiler identification is GNU 13.3.0
+[0.099s] -- The CXX compiler identification is GNU 13.3.0
+[0.112s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.311s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.504s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.579s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.780s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.780s]   Packages installing interfaces must include
+[0.780s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.780s]   package.xml
+[0.780s] Call Stack (most recent call first):
+[0.780s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.781s] 
+[0.781s] [0m
+[0.781s] -- Configuring incomplete, errors occurred!
+[0.785s] Invoked command in '/home/broodjesemih/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/broodjesemih/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/broodjesemih/ros2_ws/install/my_robot_interfaces

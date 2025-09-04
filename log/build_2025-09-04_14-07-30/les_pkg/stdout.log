@@ -1,0 +1,5 @@
+[ 60%] Built target clock
+[ 60%] Built target template_general
+[ 60%] Built target template_walltimer
+[ 70%] [32mBuilding CXX object CMakeFiles/template_publisher.dir/src/template_publisher.cpp.o[0m
+[ 90%] Built target template_subscriber

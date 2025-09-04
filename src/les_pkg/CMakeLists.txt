@@ -2,10 +2,11 @@ cmake_minimum_required(VERSION 3.8)
 project(les_pkg)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wpedantic)
 endif()
 
 # find dependencies
+
 find_package(ament_cmake REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -13,7 +14,7 @@ find_package(ament_cmake REQUIRED)
 
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)   # nodig als er een actionserver node wordt gemaakt 
-
+find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)        # gebruik maken von standaard messages
 #find_package(templates_interfaces REQUIRED)   # gebruik maken van project messages 
 
@@ -34,8 +35,8 @@ add_executable(template_subscriber src/template_subscriber.cpp)
 ament_target_dependencies(template_general rclcpp  )
 ament_target_dependencies(clock rclcpp  )
 ament_target_dependencies(template_walltimer rclcpp  ) 
-ament_target_dependencies(template_publisher rclcpp std_msgs) 
-ament_target_dependencies(template_subscriber rclcpp std_msgs) 
+ament_target_dependencies(template_publisher rclcpp std_msgs geometry_msgs) 
+ament_target_dependencies(template_subscriber rclcpp std_msgs geometry_msgs) 
 #ament_target_dependencies(template_serviceserver rclcpp std_msgs templates_interfaces ) 
 #ament_target_dependencies(template_serviceclient rclcpp std_msgs templates_interfaces ) 
 #ament_target_dependencies(template_actionserver rclcpp rclcpp_action templates_interfaces ) 

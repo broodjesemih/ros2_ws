@@ -1,0 +1,61 @@
+[0.006s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/broodjesemih/ros2_ws/build/les_pkg -- -j20 -l20
+[0.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.174s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.190s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.245s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.245s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.334s] -- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.358s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.378s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.436s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.436s] -- Configured cppcheck include dirs: 
+[0.436s] -- Configured cppcheck exclude dirs and/or files: 
+[0.436s] -- Added test 'lint_cmake' to check CMake code style
+[0.437s] -- Added test 'uncrustify' to check C / C++ code style
+[0.437s] -- Configured uncrustify additional arguments: 
+[0.437s] -- Added test 'xmllint' to check XML markup files
+[0.437s] -- Configuring done (0.4s)
+[0.449s] -- Generating done (0.0s)
+[0.454s] -- Build files have been written to: /home/broodjesemih/ros2_ws/build/les_pkg
+[0.485s] [ 20%] Built target clock
+[0.488s] [ 30%] [32mBuilding CXX object CMakeFiles/template_publisher.dir/src/template_publisher.cpp.o[0m
+[0.489s] [ 50%] Built target template_walltimer
+[0.489s] [ 70%] Built target template_general
+[0.490s] [ 80%] [32mBuilding CXX object CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.o[0m
+[2.859s] [ 90%] [32m[1mLinking CXX executable template_publisher[0m
+[3.056s] [ 90%] Built target template_publisher
+[4.451s] [100%] [32m[1mLinking CXX executable template_subscriber[0m
+[4.604s] [100%] Built target template_subscriber
+[4.614s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/broodjesemih/ros2_ws/build/les_pkg -- -j20 -l20
+[4.621s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/broodjesemih/ros2_ws/build/les_pkg
+[4.626s] -- Install configuration: ""
+[4.627s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_general
+[4.627s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_general" to ""
+[4.627s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/clock
+[4.627s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/clock" to ""
+[4.627s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_walltimer
+[4.627s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_walltimer" to ""
+[4.627s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_publisher
+[4.628s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_publisher" to ""
+[4.628s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_subscriber
+[4.630s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_subscriber" to ""
+[4.630s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/package_run_dependencies/les_pkg
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/parent_prefix_path/les_pkg
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.sh
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.dsv
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.sh
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.dsv
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.bash
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.sh
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.zsh
+[4.631s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.dsv
+[4.631s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.dsv
+[4.632s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/packages/les_pkg
+[4.632s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig.cmake
+[4.632s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig-version.cmake
+[4.632s] -- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.xml
+[4.632s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/broodjesemih/ros2_ws/build/les_pkg
