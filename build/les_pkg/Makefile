@@ -223,6 +223,45 @@ clock/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clock.dir/build.make CMakeFiles/clock.dir/build
 .PHONY : clock/fast
 
+#=============================================================================
+# Target rules for targets named template_walltimer
+
+# Build rule for target.
+template_walltimer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 template_walltimer
+.PHONY : template_walltimer
+
+# fast build rule for target.
+template_walltimer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_walltimer.dir/build.make CMakeFiles/template_walltimer.dir/build
+.PHONY : template_walltimer/fast
+
+#=============================================================================
+# Target rules for targets named template_publisher
+
+# Build rule for target.
+template_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 template_publisher
+.PHONY : template_publisher
+
+# fast build rule for target.
+template_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_publisher.dir/build.make CMakeFiles/template_publisher.dir/build
+.PHONY : template_publisher/fast
+
+#=============================================================================
+# Target rules for targets named template_subscriber
+
+# Build rule for target.
+template_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 template_subscriber
+.PHONY : template_subscriber
+
+# fast build rule for target.
+template_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_subscriber.dir/build.make CMakeFiles/template_subscriber.dir/build
+.PHONY : template_subscriber/fast
+
 src/clock.o: src/clock.cpp.o
 .PHONY : src/clock.o
 
@@ -271,6 +310,78 @@ src/template_general.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_general.dir/build.make CMakeFiles/template_general.dir/src/template_general.cpp.s
 .PHONY : src/template_general.cpp.s
 
+src/template_publisher.o: src/template_publisher.cpp.o
+.PHONY : src/template_publisher.o
+
+# target to build an object file
+src/template_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_publisher.dir/build.make CMakeFiles/template_publisher.dir/src/template_publisher.cpp.o
+.PHONY : src/template_publisher.cpp.o
+
+src/template_publisher.i: src/template_publisher.cpp.i
+.PHONY : src/template_publisher.i
+
+# target to preprocess a source file
+src/template_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_publisher.dir/build.make CMakeFiles/template_publisher.dir/src/template_publisher.cpp.i
+.PHONY : src/template_publisher.cpp.i
+
+src/template_publisher.s: src/template_publisher.cpp.s
+.PHONY : src/template_publisher.s
+
+# target to generate assembly for a file
+src/template_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_publisher.dir/build.make CMakeFiles/template_publisher.dir/src/template_publisher.cpp.s
+.PHONY : src/template_publisher.cpp.s
+
+src/template_subscriber.o: src/template_subscriber.cpp.o
+.PHONY : src/template_subscriber.o
+
+# target to build an object file
+src/template_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_subscriber.dir/build.make CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.o
+.PHONY : src/template_subscriber.cpp.o
+
+src/template_subscriber.i: src/template_subscriber.cpp.i
+.PHONY : src/template_subscriber.i
+
+# target to preprocess a source file
+src/template_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_subscriber.dir/build.make CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.i
+.PHONY : src/template_subscriber.cpp.i
+
+src/template_subscriber.s: src/template_subscriber.cpp.s
+.PHONY : src/template_subscriber.s
+
+# target to generate assembly for a file
+src/template_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_subscriber.dir/build.make CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.s
+.PHONY : src/template_subscriber.cpp.s
+
+src/template_walltimer.o: src/template_walltimer.cpp.o
+.PHONY : src/template_walltimer.o
+
+# target to build an object file
+src/template_walltimer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_walltimer.dir/build.make CMakeFiles/template_walltimer.dir/src/template_walltimer.cpp.o
+.PHONY : src/template_walltimer.cpp.o
+
+src/template_walltimer.i: src/template_walltimer.cpp.i
+.PHONY : src/template_walltimer.i
+
+# target to preprocess a source file
+src/template_walltimer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_walltimer.dir/build.make CMakeFiles/template_walltimer.dir/src/template_walltimer.cpp.i
+.PHONY : src/template_walltimer.cpp.i
+
+src/template_walltimer.s: src/template_walltimer.cpp.s
+.PHONY : src/template_walltimer.s
+
+# target to generate assembly for a file
+src/template_walltimer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/template_walltimer.dir/build.make CMakeFiles/template_walltimer.dir/src/template_walltimer.cpp.s
+.PHONY : src/template_walltimer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +399,24 @@ help:
 	@echo "... uninstall"
 	@echo "... clock"
 	@echo "... template_general"
+	@echo "... template_publisher"
+	@echo "... template_subscriber"
+	@echo "... template_walltimer"
 	@echo "... src/clock.o"
 	@echo "... src/clock.i"
 	@echo "... src/clock.s"
 	@echo "... src/template_general.o"
 	@echo "... src/template_general.i"
 	@echo "... src/template_general.s"
+	@echo "... src/template_publisher.o"
+	@echo "... src/template_publisher.i"
+	@echo "... src/template_publisher.s"
+	@echo "... src/template_subscriber.o"
+	@echo "... src/template_subscriber.i"
+	@echo "... src/template_subscriber.s"
+	@echo "... src/template_walltimer.o"
+	@echo "... src/template_walltimer.i"
+	@echo "... src/template_walltimer.s"
 .PHONY : help
 
 

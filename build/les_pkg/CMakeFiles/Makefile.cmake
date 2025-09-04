@@ -736,4 +736,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/les_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/template_general.dir/DependInfo.cmake"
   "CMakeFiles/clock.dir/DependInfo.cmake"
+  "CMakeFiles/template_walltimer.dir/DependInfo.cmake"
+  "CMakeFiles/template_publisher.dir/DependInfo.cmake"
+  "CMakeFiles/template_subscriber.dir/DependInfo.cmake"
   )

@@ -1,0 +1,8 @@
+[01m[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_walltimer.cpp:72:20:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kint[m[K’ in initialization
+   72 |     int counter_ = [01;31m[Kmy_time[m[K;   // example parameter
+      |                    [01;31m[K^~~~~~~[m[K
+      |                    [01;31m[K|[m[K
+      |                    [01;31m[Krclcpp::Time[m[K
+gmake[2]: *** [CMakeFiles/template_walltimer.dir/build.make:76: CMakeFiles/template_walltimer.dir/src/template_walltimer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/template_walltimer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

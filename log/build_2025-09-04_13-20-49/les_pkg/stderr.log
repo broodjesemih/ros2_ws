@@ -1,0 +1,6 @@
+[01m[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_walltimer.cpp:72:20:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Krclcpp::Time[m[K’ to type ‘[01m[Kint[m[K’
+   72 |     int counter_ = [01;31m[K(int)my_time[m[K;   // example parameter
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/template_walltimer.dir/build.make:76: CMakeFiles/template_walltimer.dir/src/template_walltimer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/template_walltimer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
