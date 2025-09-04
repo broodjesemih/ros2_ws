@@ -1,0 +1,32 @@
+[ 20%] Built target template_publisher
+[ 40%] Built target template_general
+[ 60%] Built target clock
+[ 70%] [32mBuilding CXX object CMakeFiles/template_walltimer.dir/src/template_walltimer.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable template_walltimer[0m
+[ 90%] Built target template_walltimer
+[100%] [32m[1mLinking CXX executable template_subscriber[0m
+[100%] Built target template_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_general
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/clock
+-- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_walltimer
+-- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_walltimer" to ""
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_publisher
+-- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_subscriber
+-- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_subscriber" to ""
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/package_run_dependencies/les_pkg
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/parent_prefix_path/les_pkg
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.sh
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.dsv
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.bash
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.sh
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.zsh
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.dsv
+-- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.dsv
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/packages/les_pkg
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig.cmake
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig-version.cmake
+-- Up-to-date: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.xml

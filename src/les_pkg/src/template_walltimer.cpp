@@ -37,10 +37,10 @@ class Template_Walltimer : public rclcpp::Node
     Template_Walltimer() : Node("template_walltimer_node")   /*constructor = multiple inheritance*/ 
     {
         //--communication and timer objects: 
-        timer_template_= this->create_wall_timer(std::chrono::milliseconds(1000),std::bind(&Template_Walltimer::timer_template_function,this));
+        timer_template_= this->create_wall_timer(std::chrono::seconds(1),std::bind(&Template_Walltimer::timer_template_function,this));
         //--customs functions:
         //... 
-        my_time = my_clock_.now();
+    
 		// RCLCPP_INFO(this->get_logger() ,"Current time: %d sec and %d nanosec", my_time.seconds(), my_time.nanoseconds());
 
     }
@@ -53,8 +53,8 @@ class Template_Walltimer : public rclcpp::Node
     void timer_template_function()          
     { 
     /* your code   */
-
-        RCLCPP_INFO(this->get_logger() ,"The time is : %d", my_time); //example code  
+    my_time = my_clock_.now();
+        RCLCPP_INFO(this->get_logger() ,"The time is : %f", my_time.seconds()); //example code  
     
     /* your code */ 
     }
