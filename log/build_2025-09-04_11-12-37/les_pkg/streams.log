@@ -1,0 +1,32 @@
+[0.005s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/broodjesemih/ros2_ws/src/les_pkg -DCMAKE_INSTALL_PREFIX=/home/broodjesemih/ros2_ws/install/les_pkg
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.294s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.294s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.294s]   has asked CMake to find a package configuration file provided by
+[0.294s]   "ament_cmake", but CMake did not find one.
+[0.294s] 
+[0.294s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.294s]   any of the following names:
+[0.294s] 
+[0.294s]     ament_cmakeConfig.cmake
+[0.294s]     ament_cmake-config.cmake
+[0.294s] 
+[0.295s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.295s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.295s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.295s]   has been installed.
+[0.295s] 
+[0.295s] [0m
+[0.295s] -- Configuring incomplete, errors occurred!
+[0.296s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/broodjesemih/ros2_ws/src/les_pkg -DCMAKE_INSTALL_PREFIX=/home/broodjesemih/ros2_ws/install/les_pkg

@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/broodjesemih/ros2_ws/src/les_pkg -DCMAKE_INSTALL_PREFIX=/home/broodjesemih/ros2_ws/install/les_pkg
+[0.023s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.139s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.238s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.289s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.307s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.432s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.561s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.578s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.593s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.667s] -- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.723s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.742s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.816s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.816s] -- Configured cppcheck include dirs: 
+[0.816s] -- Configured cppcheck exclude dirs and/or files: 
+[0.816s] -- Added test 'lint_cmake' to check CMake code style
+[0.817s] -- Added test 'uncrustify' to check C / C++ code style
+[0.817s] -- Configured uncrustify additional arguments: 
+[0.818s] -- Added test 'xmllint' to check XML markup files
+[0.819s] -- Configuring done (0.8s)
+[0.825s] -- Generating done (0.0s)
+[0.827s] -- Build files have been written to: /home/broodjesemih/ros2_ws/build/les_pkg
+[0.833s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/broodjesemih/ros2_ws/src/les_pkg -DCMAKE_INSTALL_PREFIX=/home/broodjesemih/ros2_ws/install/les_pkg
+[0.833s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/broodjesemih/ros2_ws/build/les_pkg -- -j20 -l20
+[0.879s] [ 50%] [32mBuilding CXX object CMakeFiles/template_general.dir/src/template_general.cpp.o[0m
+[2.555s] [100%] [32m[1mLinking CXX executable template_general[0m
+[2.676s] [100%] Built target template_general
+[2.685s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/broodjesemih/ros2_ws/build/les_pkg -- -j20 -l20
+[2.691s] Invoking command in '/home/broodjesemih/ros2_ws/build/les_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/broodjesemih/ros2_ws/build/les_pkg
+[2.697s] -- Install configuration: ""
+[2.697s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_general
+[2.697s] -- Set non-toolchain portion of runtime path of "/home/broodjesemih/ros2_ws/install/les_pkg/lib/les_pkg/template_general" to ""
+[2.697s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/package_run_dependencies/les_pkg
+[2.697s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/parent_prefix_path/les_pkg
+[2.697s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.sh
+[2.697s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/ament_prefix_path.dsv
+[2.697s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.sh
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/environment/path.dsv
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.bash
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.sh
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.zsh
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/local_setup.dsv
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.dsv
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/ament_index/resource_index/packages/les_pkg
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig.cmake
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/cmake/les_pkgConfig-version.cmake
+[2.698s] -- Installing: /home/broodjesemih/ros2_ws/install/les_pkg/share/les_pkg/package.xml
+[2.699s] Invoked command in '/home/broodjesemih/ros2_ws/build/les_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/broodjesemih/ros2_ws/build/les_pkg
