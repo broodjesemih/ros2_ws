@@ -126,7 +126,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/les_pkg/template_publisher")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/les_pkg/template_publisher"
-         OLD_RPATH "/opt/ros/jazzy/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/broodjesemih/ros2_ws/install/my_robot_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/les_pkg/template_publisher")
@@ -150,7 +150,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/les_pkg/template_subscriber")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/les_pkg/template_subscriber"
-         OLD_RPATH "/opt/ros/jazzy/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/broodjesemih/ros2_ws/install/my_robot_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/les_pkg/template_subscriber")

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2fee56883961af66bbd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "les_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "clock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clock-abaf0305c9f2224fed99.json",
+					"name" : "clock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "les_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-les_pkg_uninstall-1ca94565ddc5d3cf459d.json",
+					"name" : "les_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template_general::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template_general-9f4b5ce6057eb2635f13.json",
+					"name" : "template_general",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template_publisher-357d89c6839530ac9102.json",
+					"name" : "template_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template_subscriber-bddbc7e5c8fc1772b807.json",
+					"name" : "template_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "template_walltimer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-template_walltimer-b2cbd290d5d803e39d95.json",
+					"name" : "template_walltimer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7b5ea2a58c73d580751c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/broodjesemih/ros2_ws/build/les_pkg",
+		"source" : "/home/broodjesemih/ros2_ws/src/les_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

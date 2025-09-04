@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000130] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000203] (les_pkg) JobQueued: {'identifier': 'les_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/broodjesemih/ros2_ws/install/my_robot_interfaces'})}
+[0.000231] (les_pkg) JobStarted: {'identifier': 'les_pkg'}
+[0.007377] (les_pkg) JobProgress: {'identifier': 'les_pkg', 'progress': 'cmake'}
+[0.007896] (les_pkg) JobProgress: {'identifier': 'les_pkg', 'progress': 'build'}
+[0.008385] (les_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/broodjesemih/ros2_ws/build/les_pkg', '--', '-j20', '-l20'], 'cwd': '/home/broodjesemih/ros2_ws/build/les_pkg', 'env': OrderedDict({'LANGUAGE': 'en_US', 'USER': 'broodjesemih', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'XDG_SEAT': 'seat0', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/broodjesemih/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/broodjesemih', 'OLDPWD': '/home/broodjesemih', 'LESS': '-R', 'DESKTOP_SESSION': 'xubuntu', 'ZSH': '/home/broodjesemih/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/broodjesemih/homework_ws/install:/home/broodjesemih/ros2_ws/install', 'LOGNAME': 'broodjesemih', 'WINDOWID': '109051911', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c4', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/broodjesemih/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/xubuntu:@/tmp/.ICE-unix/9873,unix/xubuntu:/tmp/.ICE-unix/9873', 'GDM_LANG': 'en_US', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/broodjesemih/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/broodjesemih', 'AMENT_PREFIX_PATH': '/home/broodjesemih/homework_ws/install/les_pkg:/home/broodjesemih/ros2_ws/install/my_robot_interfaces:/home/broodjesemih/ros2_ws/install/les_pkg:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/broodjesemih/ros2_ws/build/les_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg', 'PYTHONPATH': '/home/broodjesemih/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/broodjesemih/ros2_ws/install/my_robot_interfaces:/home/broodjesemih/homework_ws/install/les_pkg:/home/broodjesemih/ros2_ws/install/les_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.029609] (les_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099746] (-) TimerEvent: {}
+[0.170187] (les_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.186392] (les_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.191298] (les_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.197655] (les_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199961] (-) TimerEvent: {}
+[0.205042] (les_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.240814] (les_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.241483] (les_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.286368] (les_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300185] (-) TimerEvent: {}
+[0.327344] (les_pkg) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[0.349885] (les_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.368028] (les_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/broodjesemih/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[0.376177] (les_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.400401] (-) TimerEvent: {}
+[0.431791] (les_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.431945] (les_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.432022] (les_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.432178] (les_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.432567] (les_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.432733] (les_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.432888] (les_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.433120] (les_pkg) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.445975] (les_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.450675] (les_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/broodjesemih/ros2_ws/build/les_pkg\n'}
+[0.483404] (les_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.o\x1b[0m\n'}
+[0.484644] (les_pkg) StdoutLine: {'line': b'[ 30%] Built target template_walltimer\n'}
+[0.486324] (les_pkg) StdoutLine: {'line': b'[ 50%] Built target template_general\n'}
+[0.486926] (les_pkg) StdoutLine: {'line': b'[ 70%] Built target clock\n'}
+[0.489279] (les_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/template_publisher.dir/src/template_publisher.cpp.o\x1b[0m\n'}
+[0.500512] (-) TimerEvent: {}
+[0.600755] (-) TimerEvent: {}
+[0.701048] (-) TimerEvent: {}
+[0.801413] (-) TimerEvent: {}
+[0.901694] (-) TimerEvent: {}
+[1.002070] (-) TimerEvent: {}
+[1.102429] (-) TimerEvent: {}
+[1.202793] (-) TimerEvent: {}
+[1.303153] (-) TimerEvent: {}
+[1.403428] (-) TimerEvent: {}
+[1.503805] (-) TimerEvent: {}
+[1.604071] (-) TimerEvent: {}
+[1.650345] (les_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_subscriber.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.650544] (les_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_subscriber.cpp:56:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTemplateSubscriber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KTemplatePublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.650640] (les_pkg) StderrLine: {'line': b'   56 |   auto node = std::make_shared<\x1b[01;31m\x1b[KTemplateSubscriber\x1b[m\x1b[K>();\n'}
+[1.650716] (les_pkg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.650788] (les_pkg) StderrLine: {'line': b'      |                                \x1b[32m\x1b[KTemplatePublisher\x1b[m\x1b[K\n'}
+[1.650858] (les_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_subscriber.cpp:56:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.650931] (les_pkg) StderrLine: {'line': b'   56 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<TemplateSubscriber>()\x1b[m\x1b[K;\n'}
+[1.651013] (les_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.651084] (les_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[1.651155] (les_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[1.651225] (les_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_subscriber.cpp:17\x1b[m\x1b[K:\n'}
+[1.651294] (les_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.651368] (les_pkg) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[1.651435] (les_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651504] (les_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.651572] (les_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/broodjesemih/ros2_ws/src/les_pkg/src/template_subscriber.cpp:56:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.651648] (les_pkg) StderrLine: {'line': b'   56 |   auto node = \x1b[01;31m\x1b[Kstd::make_shared<TemplateSubscriber>()\x1b[m\x1b[K;\n'}
+[1.651719] (les_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.704301] (-) TimerEvent: {}
+[1.804533] (-) TimerEvent: {}
+[1.904818] (-) TimerEvent: {}
+[2.005188] (-) TimerEvent: {}
+[2.105426] (-) TimerEvent: {}
+[2.135032] (les_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/template_subscriber.dir/build.make:76: CMakeFiles/template_subscriber.dir/src/template_subscriber.cpp.o] Error 1\n'}
+[2.135311] (les_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/template_subscriber.dir/all] Error 2\n'}
+[2.135417] (les_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.205554] (-) TimerEvent: {}
+[2.305798] (-) TimerEvent: {}
+[2.406024] (-) TimerEvent: {}
+[2.506252] (-) TimerEvent: {}
+[2.601860] (les_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable template_publisher\x1b[0m\n'}
+[2.606325] (-) TimerEvent: {}
+[2.696220] (les_pkg) StdoutLine: {'line': b'[ 90%] Built target template_publisher\n'}
+[2.696930] (les_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.698346] (les_pkg) CommandEnded: {'returncode': 2}
+[2.705068] (les_pkg) JobEnded: {'identifier': 'les_pkg', 'rc': 2}
+[2.706485] (-) TimerEvent: {}
+[2.715643] (-) EventReactorShutdown: {}

@@ -35,6 +35,7 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
@@ -285,6 +286,8 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
 /usr/include/c++/13/bits/align.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -369,6 +372,10 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
 
 /usr/include/c++/13/clocale:
 
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/c++/13/iosfwd:
+
 /opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
@@ -437,8 +444,6 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/bits/hashtable_policy.h:
-
 /usr/include/c++/13/bits/std_function.h:
 
 /usr/include/c++/13/bits/char_traits.h:
@@ -477,6 +482,10 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
+
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
@@ -509,9 +518,9 @@ rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__ro
 
 /usr/include/c++/13/bits/new_allocator.h:
 
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
 /usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
@@ -599,10 +608,6 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 
 /usr/include/c++/13/array:
 
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/iosfwd:
-
 /usr/include/c++/13/bits/vector.tcc:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
@@ -658,8 +663,6 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
 /usr/include/c++/13/pstl/execution_defs.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
 /usr/include/c++/13/exception:
 

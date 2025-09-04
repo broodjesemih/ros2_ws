@@ -16,6 +16,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)   # nodig als er een actionserver node wordt gemaakt 
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)        # gebruik maken von standaard messages
+find_package(my_robot_interfaces REQUIRED)   # gebruik maken van project messages
 #find_package(templates_interfaces REQUIRED)   # gebruik maken van project messages 
 
 
@@ -35,8 +36,8 @@ add_executable(template_subscriber src/template_subscriber.cpp)
 ament_target_dependencies(template_general rclcpp  )
 ament_target_dependencies(clock rclcpp  )
 ament_target_dependencies(template_walltimer rclcpp  ) 
-ament_target_dependencies(template_publisher rclcpp std_msgs geometry_msgs) 
-ament_target_dependencies(template_subscriber rclcpp std_msgs geometry_msgs) 
+ament_target_dependencies(template_publisher rclcpp std_msgs geometry_msgs my_robot_interfaces) 
+ament_target_dependencies(template_subscriber rclcpp std_msgs geometry_msgs my_robot_interfaces) 
 #ament_target_dependencies(template_serviceserver rclcpp std_msgs templates_interfaces ) 
 #ament_target_dependencies(template_serviceclient rclcpp std_msgs templates_interfaces ) 
 #ament_target_dependencies(template_actionserver rclcpp rclcpp_action templates_interfaces ) 

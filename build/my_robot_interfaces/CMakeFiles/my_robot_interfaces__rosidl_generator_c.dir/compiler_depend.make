@@ -95,6 +95,7 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_rob
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
   /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
@@ -240,6 +241,8 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_rob
 
 
 rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 

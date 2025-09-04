@@ -18,6 +18,7 @@ one line per change
 
 //--custom includes 
 #include "geometry_msgs/msg/pose_array.hpp" // Keep this include
+#include "my_robot_interfaces/msg/hardware_status.hpp"
 
 //--using 
 using namespace std::placeholders;
@@ -50,7 +51,7 @@ class TemplateSubscriber : public rclcpp::Node
       );
     }
   }
-  
+  // ...existing code...
 private:
   //--rclcpp variables:
   rclcpp::Subscription<geometry_msgs::msg::PoseArray>::SharedPtr subscriber_theanswer_;

@@ -12,6 +12,10 @@ ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
 
 # Import statements for member types
 
+import builtins  # noqa: E402, I100
+
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -60,15 +64,27 @@ class HardwareStatus(metaclass=Metaclass_HardwareStatus):
     """Message class 'HardwareStatus'."""
 
     __slots__ = [
+        '_version',
+        '_temperature',
+        '_are_motors_ready',
+        '_debug_message',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
+        'version': 'int64',
+        'temperature': 'double',
+        'are_motors_ready': 'boolean',
+        'debug_message': 'string',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -80,6 +96,10 @@ class HardwareStatus(metaclass=Metaclass_HardwareStatus):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.version = kwargs.get('version', int())
+        self.temperature = kwargs.get('temperature', float())
+        self.are_motors_ready = kwargs.get('are_motors_ready', bool())
+        self.debug_message = kwargs.get('debug_message', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -111,9 +131,73 @@ class HardwareStatus(metaclass=Metaclass_HardwareStatus):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.version != other.version:
+            return False
+        if self.temperature != other.temperature:
+            return False
+        if self.are_motors_ready != other.are_motors_ready:
+            return False
+        if self.debug_message != other.debug_message:
+            return False
         return True
 
     @classmethod
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def version(self):
+        """Message field 'version'."""
+        return self._version
+
+    @version.setter
+    def version(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, int), \
+                "The 'version' field must be of type 'int'"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'version' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+        self._version = value
+
+    @builtins.property
+    def temperature(self):
+        """Message field 'temperature'."""
+        return self._temperature
+
+    @temperature.setter
+    def temperature(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 'temperature' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'temperature' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._temperature = value
+
+    @builtins.property
+    def are_motors_ready(self):
+        """Message field 'are_motors_ready'."""
+        return self._are_motors_ready
+
+    @are_motors_ready.setter
+    def are_motors_ready(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, bool), \
+                "The 'are_motors_ready' field must be of type 'bool'"
+        self._are_motors_ready = value
+
+    @builtins.property
+    def debug_message(self):
+        """Message field 'debug_message'."""
+        return self._debug_message
+
+    @debug_message.setter
+    def debug_message(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, str), \
+                "The 'debug_message' field must be of type 'str'"
+        self._debug_message = value
